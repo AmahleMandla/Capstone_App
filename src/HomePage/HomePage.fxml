@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePage.HomePageController">
+   <children>
+      <HBox id="hPane" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView id="image" fitHeight="242.0" fitWidth="356.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/home/logo_blueprints.png" />
+               </image>
+               <effect>
+                  <Reflection />
+               </effect>
+            </ImageView>
+            <ImageView id="image2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Reflection />
+               </effect></ImageView>
+         </children>
+      </HBox>
+      <Button id="play_btn" fx:id="btnPlay" layoutX="200.0" layoutY="1000.0" mnemonicParsing="false" onAction="#btnPlayClicked" text="Play">
+         <effect>
+            <Glow />
+         </effect></Button>
+   </children>
+</VBox>

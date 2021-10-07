@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PlayerSelecter.PlayerSelecterController">
+   <children>
+      <AnchorPane id="selecter_pane" layoutX="59.0" prefHeight="300.0" prefWidth="452.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="59.0" AnchorPane.rightAnchor="89.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox id="vbox" layoutX="24.0" prefHeight="200.0" prefWidth="253.0" snapToPixel="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="79.0" prefWidth="455.0" text="Select game play :" />
+                  <HBox id="hbox" prefHeight="50.0" prefWidth="249.0">
+                     <children>
+                        <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="57.0" prefWidth="396.0" text="How many players ?" />
+                        <ComboBox id="cmbox" fx:id="cmbNumOfPlayers" prefHeight="25.0" prefWidth="59.0" />
+                     </children>
+                  </HBox>
+                  <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="454.0" text="Pigs only or Pigs + wolves?" />
+                  <ComboBox id="cmbox" fx:id="cmboxWolvesAndPigs" prefHeight="25.0" prefWidth="132.0" />
+               </children>
+            </VBox>
+         </children></AnchorPane>
+      <Button id="cancel" fx:id="btnCancel" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" layoutX="490.0" layoutY="31.0" mnemonicParsing="false" onAction="#btnCancelClicked" prefHeight="39.0" prefWidth="42.0" text="✖" AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="31.0" />
+      <Button id="play" fx:id="btnPlay" alignment="CENTER" contentDisplay="CENTER" layoutX="479.0" layoutY="318.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="64.0" text="✓" AnchorPane.bottomAnchor="18.0" AnchorPane.rightAnchor="57.0">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

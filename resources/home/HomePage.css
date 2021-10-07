@@ -1,0 +1,125 @@
+/*Home page style Css*/
+#pane{
+    -fx-background-color: lightskyblue;
+    -fx-alignment: center;
+    -fx-background-image: url("background-image.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 30, 1, 0, 0);
+}
+
+#hPane{
+    -fx-alignment: center;
+    -fx-background-position: center center;
+}
+
+
+#image{
+    -fx-image: url("logo_blueprints.png");
+    -fx-background-image: url("logo_blueprints.png");
+}
+
+#image2{
+    -fx-image: url("logo_p3.png");
+    -fx-background-image: url("logo_p3.png");
+}
+
+#play_btn{
+    -fx-min-width: 200px;
+    -fx-min-height: 80px;
+    -fx-font-weight: 600;
+    -fx-font-size: 36px;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 8px;
+    -fx-background-radius: 40px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #079ade;
+    -fx-opacity: 0.6;
+    -fx-effect: dropshadow(three-pass-box,grey , 10, 0.5, 5, 5);
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-style: oblique;
+    -fx-font-size: 30px;
+    -fx-max-width: 300px;
+    -fx-max-height: 300px;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 100px;
+    -fx-alignment: center-left;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-style: oblique;
+    -fx-font-family: JosefinSans-Bold;
+}
+
+/*
+Select player and number of player in the game
+ */
+#selecter_pane{
+    -fx-border-radius: 35px;
+    -fx-background-radius: 45px;
+    -fx-background-color: dimgrey;
+    -fx-border-color: white;
+    -fx-border-width: 20px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(three-pass-box,#313233, 10, 0.5, 5, 5);
+}
+
+#cancel{
+    -fx-font-size: 40px;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-background-color: dimgrey;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+    -fx-max-height: 200px;
+    -fx-max-width: 200px;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 70px;
+    -fx-padding: 0px;
+    -fx-effect: dropshadow(three-pass-box,grey , 10, 0.5, 5, 5);
+
+}
+
+#play{
+    -fx-font-size: 50px;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-background-color: limegreen;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+    -fx-max-height: 200px;
+    -fx-max-width: 200px;
+    -fx-pref-height: 100px;
+    -fx-pref-width: 100px;
+    -fx-padding: 0px 10px 0px 10px;
+    -fx-effect: dropshadow(three-pass-box,grey , 10, 0.5, 5, 5);
+}
+#hbox{
+    -fx-alignment: center;
+    -fx-insets: 20px;
+    -fx-padding: 0px;
+    -fx-wrap-text: true;
+  }
+
+#vbox{
+    -fx-wrap-text: true;
+ -fx-alignment: center;
+    -fx-insets: 20px;
+    -fx-padding: 0px;
+    -fx-pref-height: 400px;
+    -fx-pref-width: 700px;
+    -fx-spacing: 20px;
+}
+
+#cmbox{
+   -fx-font-size: 16px;
+    -fx-pref-height: 50px;
+    -fx-alignment: center;
+    -fx-content-display: center;
+
+}
